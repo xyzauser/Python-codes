@@ -1,12 +1,14 @@
+# This code is the lyrics trend of rock your body song ! 
+
 import sys
 from rich import print
 from time import sleep
 
-print("AUTHOR: One and Only The greatest: Anmol")
+print("AUTHOR: xyza.user")
 
 def printLyrics():
-    lines = [
-        ("I wanna da-", 0.08),  
+    lines = [        
+        ("I wanna da-", 0.08),        # The time is for the character  
         ("I wanna dance in the lights", 0.08),  
         ("I wanna ro-", 0.07),      
         ("I wanna rock your body", 0.08),
@@ -41,4 +43,5 @@ def printLyrics():
 
 
 if __name__ == "__main__":
+
     printLyrics()
